@@ -38,10 +38,11 @@ public:
 
         // step 1 allocate memory for the new node
         Node* newNode = new Node();
-        
+
 
         // step 2 assign value to the data field of new
         newNode->info = x;
+        
 
         // step 3 make the left and rigth child of the new node point to NULL
         newNode->leftchild = nullptr;
