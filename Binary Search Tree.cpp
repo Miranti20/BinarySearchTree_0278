@@ -103,7 +103,7 @@ public:
                 currentNode = currentNode->rightchild;
         }
     }
-    
+
 
     void inorder(Node *ptr)
     {
@@ -156,6 +156,7 @@ public:
         return ROOT == nullptr;
     }
 };
+
 
 int main()
 {
