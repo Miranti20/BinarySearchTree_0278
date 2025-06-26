@@ -75,7 +75,7 @@ public:
             // 6b: Exit
             return;
         }
-        
+
 
         // step 7 if the values in the data field of the new node is greater than of the parent
         else if (x > parent->info)
@@ -87,6 +87,7 @@ public:
             return;
         }
     }
+    
 
     void search(int element, Node *&parent, Node *&currentNode)
     {
