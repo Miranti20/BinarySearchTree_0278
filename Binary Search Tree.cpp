@@ -64,7 +64,7 @@ public:
             // 5b: Exit
             return;
         }
-        
+
 
         // step 6 if the value in the data field of new node is lass than of parent
         if (x < parent->info)
@@ -75,6 +75,7 @@ public:
             // 6b: Exit
             return;
         }
+        
 
         // step 7 if the values in the data field of the new node is greater than of the parent
         else if (x > parent->info)
