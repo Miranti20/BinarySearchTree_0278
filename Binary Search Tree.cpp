@@ -27,13 +27,14 @@ public:
     {
         ROOT = nullptr; // initializing ROOT to null
     }
-    
+
 
     void insert() // insert a node in the binary search tree
     {
         int x;
         cout << "Masukkan Nilai: ";
         cin >> x;
+        
 
         // step 1 allocate memory for the new node
         Node* newNode = new Node();
