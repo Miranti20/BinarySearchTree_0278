@@ -27,6 +27,7 @@ public:
     {
         ROOT = nullptr; // initializing ROOT to null
     }
+    
 
     void insert() // insert a node in the binary search tree
     {
