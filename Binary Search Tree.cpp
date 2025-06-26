@@ -34,10 +34,11 @@ public:
         int x;
         cout << "Masukkan Nilai: ";
         cin >> x;
-        
+
 
         // step 1 allocate memory for the new node
         Node* newNode = new Node();
+        
 
         // step 2 assign value to the data field of new
         newNode->info = x;
