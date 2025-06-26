@@ -53,7 +53,7 @@ public:
         Node* parent = nullptr;
         Node* currentNode = nullptr;
         search(x, parent, currentNode);
-        
+
 
         // step 5 if parent is NULL (tree is empty)
         if (parent == nullptr)
@@ -64,6 +64,7 @@ public:
             // 5b: Exit
             return;
         }
+        
 
         // step 6 if the value in the data field of new node is lass than of parent
         if (x < parent->info)
