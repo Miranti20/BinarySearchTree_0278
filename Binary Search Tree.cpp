@@ -87,7 +87,7 @@ public:
             return;
         }
     }
-    
+
 
     void search(int element, Node *&parent, Node *&currentNode)
     {
@@ -103,6 +103,7 @@ public:
                 currentNode = currentNode->rightchild;
         }
     }
+    
 
     void inorder(Node *ptr)
     {
